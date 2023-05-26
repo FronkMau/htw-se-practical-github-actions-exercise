@@ -1,6 +1,6 @@
 from town import Town
 
-#test
+#test2
 
 def main():
     t = Town("Dresden", 556780)

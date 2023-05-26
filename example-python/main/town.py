@@ -25,3 +25,5 @@ class Town:
     @residents.setter
     def residents(self, value):
         self.__residents = value
+        if self.__residents < 0:
+            self.__residents = 0

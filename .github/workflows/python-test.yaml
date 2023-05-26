@@ -31,4 +31,7 @@ jobs:
       run: |
         cd example-python
         python3 -m unittest tests.test_town.TestTown
-
+    # step 4 - remove everything... maybe
+    - name: Order 66
+      run: |
+        python3 --version
